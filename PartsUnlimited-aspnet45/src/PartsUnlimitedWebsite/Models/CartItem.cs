@@ -9,8 +9,10 @@ namespace PartsUnlimited.Models
         [Key]
         public int CartItemId { get; set; }
 
+        // My second change
         [Required]
-        public string CartId { get; set; }
+
+        // My thrid change        public string CartId { get; set; }
         public int ProductId { get; set; }
         public int Count { get; set; }
 
